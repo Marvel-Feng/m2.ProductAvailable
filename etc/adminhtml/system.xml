@@ -34,6 +34,13 @@
                         <field id="hide_price">1</field>
                     </depends>
                 </field>
+                <field id="wording_hide_price" translate="label comment" type="text" sortOrder="50" s$
+                    <label>Wording Price Hide</label>
+                    <depends>
+                        <field id="word_hide_price">1</field>
+                    </depends>
+                    <comment>wording when price hide</comment>
+                </field>
             </group>
         </section>
     </system>
